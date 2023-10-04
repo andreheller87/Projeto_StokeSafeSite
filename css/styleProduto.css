@@ -29,7 +29,7 @@ body {
     color: white;
 }
 .buy-button {
-    background-color: #e74c3c;
+    background-color: #5f1d71;
     color: #fff;
     padding: 10px 20px;
     font-size: 20px;
@@ -38,7 +38,7 @@ body {
     transition: background-color 0.3s;
 }
 .buy-button:hover {
-    background-color: #c0392b;
+    background-color: #500863;
 }
 
 .recurso {
