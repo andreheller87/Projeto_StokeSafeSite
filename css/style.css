@@ -157,3 +157,33 @@ hr {
     text-align: center;
 }
 
+.aluno{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+    width: 80%;
+    border: 2px solid beige;
+    color: white;
+    overflow: hidden;
+    margin: 8em;
+    background-color: #888484;
+    border-radius: 10px;
+    
+}
+
+.aluno img{
+    width:8em;
+    height:12em;
+    border: 3px solid rgb(120, 21, 153);
+}
+
+.aluno h1{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+   
+}
+
+.aluno h3{
+    margin-left: 1em;
+}
