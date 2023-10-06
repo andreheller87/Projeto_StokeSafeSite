@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -9,22 +8,22 @@
 
 body {
     background-color: black;
-    margin: 0; 
+    margin: 0;
 }
 
 
 header {
     position: fixed;
-    background:rgb(31, 11, 37);
+    background: rgb(31, 11, 37);
     top: 0;
     left: 0;
     width: 100%;
     height: 50px;
     padding-right: 1em;
- 
+
 }
 
-header img{
+header img {
     width: 110px;
     height: 53px;
 }
@@ -34,7 +33,7 @@ header img{
 ul {
     list-style: none;
     display: flex;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 ul li {
@@ -60,7 +59,7 @@ ul li a:hover {
     background-position: center;
     background-size: cover;
     width: 100%;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 
@@ -69,14 +68,14 @@ ul li a:hover {
     text-align: center;
     color: #fff;
     font-size: 3em;
-     margin-top: 2em;
+    margin-top: 2em;
 }
 
 .C-title h2 {
     text-align: center;
     color: #fff;
     font-size: 2em;
-     margin-top: 1em;
+    margin-top: 1em;
 }
 
 
@@ -84,16 +83,16 @@ ul li a:hover {
     color: #fff;
     background-color: black;
     width: 100%;
-    padding: 4rem 2rem; 
+    padding: 4rem 2rem;
 }
 
 .conteiner-sobre h1 {
-    color: black; 
+    color: black;
     text-align: center;
 }
 
 .conteiner-sobre h3 {
-    color: black; 
+    color: black;
     text-align: center;
     margin-top: 1rem;
 }
@@ -109,27 +108,27 @@ ul li a:hover {
 .contatos {
     color: white;
     margin-top: 10rem;
-    padding: 4rem 2rem; 
+    padding: 4rem 2rem;
 }
 
 
 .aluno {
     position: relative;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 100%;
     border: 2px solid beige;
     color: white;
     background-color: #888484;
     border-radius: 10px;
-    margin-bottom: 2rem; 
-    padding: 1rem; 
+    margin-bottom: 2rem;
+    padding: 1rem;
 }
 
 .aluno img {
-    width: 100%; 
-    max-height: 15rem; 
-    object-fit: cover; 
+    width: 100%;
+    max-height: 15rem;
+    object-fit: cover;
 }
 
 .aluno h1 {
@@ -148,7 +147,7 @@ ul li a:hover {
 
 body {
     background-color: black;
-    margin: 0; 
+    margin: 0;
 }
 
 
@@ -157,15 +156,15 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-   
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header img {
-    width:100px;
-   
+    width: 100px;
+
 }
 
 ul {
@@ -201,21 +200,21 @@ ul li a:hover {
 }
 
 .C-title {
-  
-   margin-top: 40px;
+
+    margin-top: 40px;
 }
 
 .C-title img {
-   margin-left: 2em;
-   width: 90%;
-   height: 90vh;
+    margin-left: 2em;
+    width: 90%;
+    height: 90vh;
 }
 
 .C-title p {
     margin-left: 2em;
     color: #fff;
     font-size: 1.5em;
-   
+
 }
 
 .texto {
@@ -228,16 +227,16 @@ ul li a:hover {
     color: #fff;
     background-color: black;
     width: 100%;
-    padding: 4rem 2rem; 
+    padding: 4rem 2rem;
 }
 
 .conteiner-sobre h1 {
-    color: white; 
+    color: white;
     text-align: center;
 }
 
 .conteiner-sobre h3 {
-    color: white; 
+    color: white;
     text-align: center;
     margin-top: 1rem;
 }
@@ -246,22 +245,22 @@ ul li a:hover {
     color: #fff;
     font-size: 1.5rem;
     margin-top: 2rem;
-    padding: 0 2rem; 
+    padding: 0 2rem;
 }
 
 
 .contatos {
     color: white;
     margin-top: 12rem;
-    padding: 4rem 2rem; 
+    padding: 4rem 2rem;
 }
 
-.contatos h1{
+.contatos h1 {
     text-align: center;
-  
+
 }
 
-.contatos h2{
+.contatos h2 {
     margin: 1em;
 }
 
@@ -269,20 +268,20 @@ ul li a:hover {
 .aluno {
     position: relative;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     width: 100%;
     border: 2px solid beige;
     color: white;
     background-color: #888484;
     border-radius: 10px;
-    margin-bottom: 2rem; 
-    padding: 1rem; 
+    margin-bottom: 2rem;
+    padding: 1rem;
 }
 
 .aluno img {
-    width: 30%; 
-    max-height: 15rem; 
-    object-fit: cover; 
+    width: 30%;
+    max-height: 15rem;
+    object-fit: cover;
 }
 
 .aluno h1 {
@@ -290,6 +289,7 @@ ul li a:hover {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.aluno h3{
+
+.aluno h3 {
     margin: 1em;
- }
+}
