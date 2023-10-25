@@ -22,6 +22,7 @@ header {
     left: 0;
     height: 50px;
     padding-right: 1em;
+    z-index: 2;
 }
 
 header img {
@@ -132,7 +133,7 @@ hr{
 
 .valores {
     display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
     color: #fff;
     font-size: 1 rem;
   
@@ -159,15 +160,14 @@ hr{
  
     padding-bottom: 10px;
     text-align: left;
-    
+    position: relative;
 }
 
 
 .itens:hover {
- 
-    background-color:  #9027c8;
+    z-index: 1;
     transform: translate(2px, -4px);
-    
+    background-color:  #9027c8;
 }
 
 
