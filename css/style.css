@@ -5,7 +5,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: none;
 }
-
 body {
     background-color: black;
     margin: 0;
@@ -14,13 +13,15 @@ body {
 
 header {
     position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: rgb(31, 11, 37);
     top: 0;
     left: 0;
-    width: 100%;
     height: 50px;
     padding-right: 1em;
-
 }
 
 header img {
@@ -29,15 +30,11 @@ header img {
 }
 
 
-
-
-
 ul {
     list-style: none;
     display: flex;
     gap: 2rem;
 }
-
 ul li {
     list-style: none;
 }
@@ -48,38 +45,29 @@ ul li a {
     transition: 0.3s;
 }
 
+
 ul li a:hover {
     text-transform: capitalize;
     color: rgb(120, 21, 153);
     border-bottom: solid 1px;
 }
 
-
-.backgroud {
-    background-image: url(./backgroud1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.C-title img {
+    position: relative; 
+    z-index: -1; 
     width: 100%;
-    min-height: 100vh;
+    height: 90vh;
 }
 
-
-
-.C-title h1 {
+.C-title p {
+    position: relative; 
     text-align: center;
-    color: #fff;
-    font-size: 3em;
-    margin-top: 2em;
-}
-
-.C-title h2 {
-    text-align: center;
+    z-index: 1;
+    background-color: #000;
+    margin-top: -95px;
     color: #fff;
     font-size: 2em;
-    margin-top: 1em;
 }
-
 
 .conteiner-sobre {
     color: #fff;
@@ -92,123 +80,6 @@ ul li a:hover {
     color: black;
     text-align: center;
 }
-
-.conteiner-sobre h3 {
-    color: black;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.conteiner-sobre p {
-    color: #fff;
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    padding: 0 2rem;
-}
-
-
-.contatos {
-    color: white;
-    margin-top: 10rem;
-    padding: 4rem 2rem;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: none;
-}
-
-body {
-    background-color: black;
-    margin: 0;
-}
-
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    width: 100px;
-
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-}
-
-ul li {
-    list-style: none;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #fff;
-    transition: 0.3s;
-}
-
-ul li a:hover {
-    text-transform: capitalize;
-    color: rgb(120, 21, 153);
-    border-bottom: solid 1px;
-}
-
-
-.backgroud {
-    background-image: url(./backgroud1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-}
-
-.C-title {
-
-    margin-top: 40px;
-}
-
-.C-title img {
-    
-    margin: auto;
-    width: 50%;
-    height:50vh;
-}
-
-.C-title p {
-    margin-left: 2em;
-    color: #fff;
-    font-size: 1.5em;
-
-}
-
-.texto {
-    text-align: left;
-    display: inline-block;
-}
-
-
-.conteiner-sobre {
-    color: #fff;
-    background-color: black;
-    width: 100%;
-    padding: 4rem 2rem;
-}
-
-
 .conteiner-sobre h2 {
     color: white;
     text-align: justify;
@@ -223,12 +94,27 @@ ul li a:hover {
     margin-top: 1rem;
 }
 
+
 .conteiner-sobre p {
     color: #fff;
-    font-size: 1.0rem;
+    font-size: 1rem;
     margin-top: 2rem;
     padding: 0 2rem;
 }
+
+
+.contatos {
+    color: white;
+    margin-top: 10rem;
+    padding: 4rem 2rem;
+}
+
+.texto {
+    text-align: left;
+    display: inline-block;
+}
+
+
 hr{
     height:2px;
     background-color: #fff;
