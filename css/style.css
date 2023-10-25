@@ -30,6 +30,8 @@ header img {
 
 
 
+
+
 ul {
     list-style: none;
     display: flex;
@@ -180,9 +182,10 @@ ul li a:hover {
 }
 
 .C-title img {
-    margin-left: 2em;
-    width: 90%;
-    height: 90vh;
+    
+    margin: auto;
+    width: 50%;
+    height:50vh;
 }
 
 .C-title p {
