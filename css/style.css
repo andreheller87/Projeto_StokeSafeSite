@@ -205,10 +205,14 @@ ul li a:hover {
     padding: 4rem 2rem;
 }
 
-.conteiner-sobre h1 {
+
+.conteiner-sobre h2 {
     color: white;
-    text-align: center;
+    text-align: justify;
+    margin-left: 2rem;
 }
+
+
 
 .conteiner-sobre h3 {
     color: white;
@@ -218,15 +222,69 @@ ul li a:hover {
 
 .conteiner-sobre p {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     margin-top: 2rem;
     padding: 0 2rem;
 }
+hr{
+    height:2px;
+    background-color: #fff;
+    border: none;
+    margin: 2rem;
+ }
+ #valores{
+ 
+ color: #9a40ca;
+ margin-bottom: 2rem;
+ font-size: 1.8rem;
+ }
+
+
+.valores {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 1 rem;
+  
+
+}
+
+.itens {
+    width: 250px;
+    height: 270;
+    border: 3px solid #9a40ca;
+    margin-top: 5px;
+    text-align: center;
+    line-height:0.3 em;
+    transition: transform 0.2s;
+    margin: 1rem;
+    
+}
+.itens h4{
+ 
+    margin-top: 15px;
+    
+}
+.itens p{
+ 
+    padding-bottom: 10px;
+    text-align: left;
+    
+}
+
+
+.itens:hover {
+ 
+    background-color:  #9027c8;
+    transform: translate(2px, -4px);
+    
+}
+
 
 
 .contatos {
     color: white;
-    margin-top: 12rem;
+    margin-top: auto;
     padding: 4rem 2rem;
 }
 
@@ -270,3 +328,4 @@ ul li a:hover {
 .aluno h3 {
     margin: 1em;
 }
+
