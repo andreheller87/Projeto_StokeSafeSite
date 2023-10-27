@@ -56,9 +56,9 @@ ul li a:hover {
 .C-title img {
     position: relative; 
     z-index: -1; 
-    width: 100vw;
+    width: 80vw;
     height: 80vh;
-    margin-top: -13px;
+    margin-top: auto;
 }
 
 .C-title p {
@@ -68,6 +68,7 @@ ul li a:hover {
     background-color: #000;
     margin-top: -97px;
     color: #fff;
+    padding-top: 2em;
     font-size: 2em;
 }
 
@@ -76,6 +77,7 @@ ul li a:hover {
     background-color: black;
     width: 100%;
     padding: 4rem 2rem;
+  
 }
 
 .conteiner-sobre h1 {
@@ -128,14 +130,17 @@ hr{
  color: #9a40ca;
  margin-bottom: 2rem;
  font-size: 1.8rem;
+
  }
 
 
 .valores {
+    margin-left: 1.8em;
     display: flex;
   flex-wrap: wrap;
     color: #fff;
     font-size: 1 rem;
+    
   
 
 }
@@ -168,6 +173,7 @@ hr{
     z-index: 1;
     transform: translate(2px, -4px);
     background-color:  #9027c8;
+    box-shadow:  0 0 10px 10px rgb(77, 23, 113);
 }
 
 
