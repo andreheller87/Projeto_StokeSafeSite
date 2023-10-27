@@ -68,6 +68,7 @@ ul li a:hover {
     background-color: #000;
     margin-top: -97px;
     color: #fff;
+    
     padding-top: 2em;
     font-size: 2em;
 }
@@ -217,11 +218,13 @@ hr{
 
 .aluno h1 {
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
+   
 }
 
-.aluno h3 {
+.aluno a {
     margin: 1em;
+    text-decoration: none;
+    color: #000;
 }
 
