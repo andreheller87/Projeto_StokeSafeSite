@@ -200,9 +200,9 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: center; 
-    align-items: center; 
+   /* align-items: center;*/ 
     color: white;
-    margin-bottom: 2rem;
+    
 }
 
 
@@ -214,13 +214,13 @@ hr{
 
 .aluno h1 {
     text-align: center;
-    margin: 1rem;
+    margin: 2rem;
    
 }
 
 .aluno div{
-    border-left: 4px solid #ff0000;
-    margin-left: 2rem;
+    width: 35%;
+   
 }
 
 .aluno a {
