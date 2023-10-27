@@ -199,14 +199,10 @@ hr{
     
     display: flex;
     flex-direction: row;
-    width: 100%;
-    border: 2px solid beige;
+    justify-content: center; 
+    align-items: center; 
     color: white;
-    background-color: #888484;
-    border-radius: 10px;
     margin-bottom: 2rem;
-    
-    overflow: hidden;
 }
 
 
@@ -222,9 +218,14 @@ hr{
    
 }
 
+.aluno div{
+    border-left: 4px solid #ff0000;
+    margin-left: 2rem;
+}
+
 .aluno a {
     margin: 1em;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
