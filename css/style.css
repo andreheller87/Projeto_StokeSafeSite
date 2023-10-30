@@ -5,6 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: none;
 }
+
 body {
     background-color: black;
     margin: 0;
@@ -36,6 +37,7 @@ ul {
     display: flex;
     gap: 2rem;
 }
+
 ul li {
     list-style: none;
 }
@@ -54,21 +56,21 @@ ul li a:hover {
 }
 
 .C-title img {
-    position: relative; 
-    z-index: -1; 
+    position: relative;
+    z-index: -1;
     width: 80vw;
     height: 80vh;
     margin-top: auto;
 }
 
 .C-title p {
-    position: relative; 
+    position: relative;
     text-align: center;
     z-index: 1;
     background-color: #000;
     margin-top: -97px;
     color: #fff;
-    
+
     padding-top: 2em;
     font-size: 2em;
 }
@@ -78,13 +80,14 @@ ul li a:hover {
     background-color: black;
     width: 100%;
     padding: 4rem 2rem;
-  
+
 }
 
 .conteiner-sobre h1 {
     color: black;
     text-align: center;
 }
+
 .conteiner-sobre h2 {
     color: white;
     text-align: justify;
@@ -103,14 +106,15 @@ ul li a:hover {
 .conteiner-sobre p {
     color: #fff;
     font-size: 1rem;
-   
+
     margin: 2.5rem;
-    
+
 }
 
-hr{
+hr {
     width: 90%;
 }
+
 .contatos {
     color: white;
     margin-top: 10rem;
@@ -123,61 +127,69 @@ hr{
 }
 
 
-hr{
-    height:2px;
+hr {
+    height: 2px;
     background-color: #fff;
     border: none;
     margin: 2rem;
- }
- #valores{
- 
- color: #9a40ca;
- margin-bottom: 2rem;
- font-size: 1.8rem;
+}
 
- }
+#valores {
+
+    color: #9a40ca;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+
+}
 
 
 .valores {
-   
+
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
     color: #fff;
-    font-size: 1 rem;
-    
-  
+    font-size: 1rem;
+
+
 
 }
 
 .itens {
-    width: 250px;
+    flex: 1;
+    max-width: 300px;
+   
     height: 270;
     border: 3px solid #9a40ca;
     margin-top: 5px;
     text-align: center;
-    line-height:0.3 em;
+    line-height: 0.3 em;
     transition: transform 0.2s;
-    margin: 1rem;
-    
+   
+
 }
-.itens h4{
- 
+
+.itens h4 {
+
     margin-top: 15px;
-    
+
 }
-.itens p{
- 
-    padding-bottom: 10px;
+
+.itens p {
+
+    
     text-align: left;
     position: relative;
+    font-size: 0.7rem;
 }
 
 
 .itens:hover {
     z-index: 1;
     transform: translate(2px, -4px);
-    background-color:  #9027c8;
-    box-shadow:  0 0 10px 10px rgb(77, 23, 113);
+    background-color: #9027c8;
+    box-shadow: 0 0 10px 10px rgb(77, 23, 113);
 }
 
 
@@ -199,12 +211,12 @@ hr{
 
 
 .aluno {
-    
+
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
     color: white;
-    
+
 }
 
 
@@ -218,17 +230,19 @@ hr{
     text-align: center;
     margin: 0.5rem;
     font-size: 1.5rem;
-   
+
 }
+
 .aluno h2 {
-   
+
     margin: 0.5rem;
     font-size: 1.2rem;
-   
+
 }
-.aluno div{
+
+.aluno div {
     width: 35%;
-   
+
 }
 
 .aluno a {
@@ -239,12 +253,5 @@ hr{
     height: 20px;
     cursor: pointer;
     margin-right: 20px;
-    
+
 }
-
-
-
-
-
-
-
