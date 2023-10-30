@@ -103,11 +103,14 @@ ul li a:hover {
 .conteiner-sobre p {
     color: #fff;
     font-size: 1rem;
-    margin-top: 2rem;
-    padding: 0 2rem;
+   
+    margin: 2.5rem;
+    
 }
 
-
+hr{
+    width: 90%;
+}
 .contatos {
     color: white;
     margin-top: 10rem;
@@ -136,7 +139,7 @@ hr{
 
 
 .valores {
-    margin-left: 1.8em;
+   
     display: flex;
   flex-wrap: wrap;
     color: #fff;
