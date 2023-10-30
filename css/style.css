@@ -70,7 +70,7 @@ ul li a:hover {
     background-color: #000;
     margin-top: -97px;
     color: #fff;
-
+    padding-bottom: 2rem;
     padding-top: 2em;
     font-size: 2em;
 }
@@ -106,7 +106,7 @@ ul li a:hover {
 .conteiner-sobre p {
     color: #fff;
     font-size: 1rem;
-
+    
     margin: 2rem;
 
 }
@@ -129,7 +129,7 @@ hr {
     height: 2px;
     background-color: #fff;
     border: none;
-    width: 100%;
+    width:100%;
     
 }
 
@@ -222,7 +222,7 @@ hr {
 .aluno img {
     width: 30%;
     max-height: 15rem;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 .aluno h1 {
