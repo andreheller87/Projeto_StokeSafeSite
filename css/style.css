@@ -107,13 +107,11 @@ ul li a:hover {
     color: #fff;
     font-size: 1rem;
 
-    margin: 2.5rem;
+    margin: 2rem;
 
 }
 
-hr {
-    width: 90%;
-}
+
 
 .contatos {
     color: white;
@@ -131,7 +129,8 @@ hr {
     height: 2px;
     background-color: #fff;
     border: none;
-    margin: 2rem;
+    width: 100%;
+    
 }
 
 #valores {
