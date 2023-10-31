@@ -122,10 +122,12 @@ ul li a:hover {
 .texto {
     text-align: left;
     display: inline-block;
+    margin-bottom: 1rem;
 }
 
 
 hr {
+    margin-top: 1rem;
     height: 2px;
     background-color: #fff;
     border: none;
