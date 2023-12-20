@@ -1,1 +1,3 @@
-# Projeto_InfinityTech
+# Projeto_StockSafe
+
+https://stocksafe2023.netlify.app/
