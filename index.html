@@ -97,21 +97,30 @@
 
 
         <div class="aluno">
-            <img src="./img/Andre.jpg" alt="">
-            <div style="border-left: 4px solid #ff0000; margin-left: 5px;">
+            <img class="img-aluno" src="./img/Andre.jpg" alt="">
+            <div style="border: 4px solid #ff0000; margin-left: 5px;">
                 <h1 style="color: #ff0000;">André Heller</h1>
                 <h2>Desenvolvedor Fullstack</h2>
-                <a href="https://www.linkedin.com/in/andreheller87/">Linkedin</a><br>
-                <a href="https://andreheller87.github.io/PortFolio/">Portifólio:</a><br>
-
-                <a href="https://github.com/andreheller87">GitHub </a><br>
+                <h3>André Heller, 36 anos, de Blumenau, atualmente cursando o 5º semestre de Ciência da Computação na Furb e participando do programa Entra21 para aprimorar habilidades em Java, além de diversos outros cursos na área de tecnologia. Sólido conhecimento em Java (Spring Boot) e familiaridade com tecnologias web fundamentais como Javascript, HTML e CSS. Destaca-se por sua habilidade de trabalho em equipe, proatividade e raciocínio lógico. Em busca de oportunidades como desenvolvedor para aplicar e expandir seu conhecimento.</h3>
+                <form>
+                    <p>Entre em contato:</p>
+                    <img onclick="whats()" class="link-footer" src="img/icons8-whatsapp-480.png" alt="Whats">
+                    <a href="https://github.com/andreheller87" target="_blank"> <img class="link-footer" src="img/github.png"
+                            alt="projeto"></a>
+        
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-heller-1172a4235/" target="_blank"><img class="link-footer"
+                            src="img/linkedin.png" alt="projeto"></a>
+                     <a href="https://andreheller87.github.io/PortFolio/">Portifólio</a><br><br>
+        
+        
+                </form>
             </div>
         </div>
 
 
         <div class="aluno">
 
-            <div style="border-right: 4px solid #3b13ef; margin-right: 5px;">
+            <div style="border: 4px solid #3b13ef; margin-right: 5px;">
 
                 <h1 style="color: #3b13ef;">Eliseu Scarpa</h1>
                 <h2>Gerente Comercial</h2>
@@ -122,9 +131,9 @@
 
         <div class="aluno">
             <img src="./img/Jonathan.jpg" alt="">
-            <div style="border-left: 4px solid #f9f61d;margin-left: 5px;">
+            <div style="border: 4px solid #ff0000;margin-left: 5px;">
 
-                <h1 style="color: #f9f61d;">Jonathan Wilker Gomes Ribeiro</h1>
+                <h1 style="color: #ff0000;">Jonathan Wilker Gomes Ribeiro</h1>
                 <h2>Desenvolvedor</h2>
                 <a href="">linkedin</a><br>
 
@@ -132,10 +141,10 @@
             </div>
         </div>
 
-        <div class="aluno">
-            <div style="border-right: 4px solid #f9df1d; margin-right: 5px;">
+        <div class="aluno" >
+            <div style="border: 4px solid #3b13ef; margin-right: 5px;">
 
-              <h1 style="color:#f9df1d;">Marlon</h1>
+              <h1 style="color:#3b13ef;">Marlon</h1>
               <h2>Desenvolvedor</h2>
               <a href="">linkedin</a><br>
               <a href="https://github.com/markosvv">GitHub</a><br>
@@ -145,8 +154,8 @@
 
         <div class="aluno">
             <img src="./img/Michael.jpg" alt="">
-            <div style="border-left: 4px solid #24f8ea;margin-left: 5px;">
-                <h1 style="color:#24f8ea;">Michael Loes</h1>
+            <div style="border: 4px solid #ff0000;margin-left: 5px;">
+                <h1 style="color:#ff0000;">Michael Loes</h1>
                 <h2>Desenvolvedor</h2>
                 <a href="https://www.linkedin.com/in/michael-loes-47b353260">LinkeDin</a><br>
                 <a href="https://github.com/MichaelLoes">GitHub</a><br>
@@ -156,7 +165,12 @@
 
         
        
-
+<Script>
+    function whats() {
+        var url = "https://whatsa.me/5547992847590/?t=Ol%C3%A1,%20vim%20pelo%20seu%20portf%C3%B3lio,%20gostaria%20de%20me%20conectar!";
+        window.open(url, "_blank");
+    }
+</Script>
 
 
 

@@ -217,16 +217,20 @@ hr {
     flex-direction: row;
     justify-content: center;
     color: white;
-
+    margin-bottom: 20px;
 }
 
 
 .aluno img {
-    width: 30%;
-    max-height: 15rem;
+   
+    max-height: 22rem;
     object-fit: scale-down;
 }
-
+.img-aluno{
+   
+    max-height: 30rem;
+    object-fit: scale-down;
+}
 .aluno h1 {
     text-align: center;
     margin: 0.5rem;
@@ -240,19 +244,33 @@ hr {
     font-size: 1.2rem;
 
 }
+.aluno h3 {
 
+    margin: 0.5rem;
+    font-size: 0.8rem;
+
+}
 .aluno div {
     width: 35%;
 
 }
 
 .aluno a {
-    margin: 10px;
+    
     text-decoration: none;
     color: #fff;
     width: 10px;
     height: 20px;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 0px;
+
+}
+
+
+
+.link-footer {
+width: 35px;
+height: 35px;
+cursor: pointer;
 
 }
