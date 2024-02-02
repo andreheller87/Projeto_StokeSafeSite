@@ -14,21 +14,47 @@
         <h1>Stock Safe</h1>
     </div>
     <div class="container">
-        <img class="product-image" src="./img/logoProduto.jpg" alt="Produto">
+        
+
         <p class="product-description">Sistema de Controle de Estoque para Pequenos Comércios. Com recursos incríveis e
-            qualidade excepcional, ele vai mudar a vida dos pequenos comerciantes.</p>
+            qualidade excepcional. Ele vai mudar a vida dos pequenos comerciantes.</p>
+
+            <div class="recurso">
+                <h3>Recursos-Chave:</h3>
+                <ol>
+                    <li>Rastreamento em Tempo Real</li>
+                    <li>Alertas de Estoque Baixo</li>
+                    <li>Gerenciamento de Prazos de Validade</li>
+                    <li>Histórico de Movimentação de Estoque</li>
+                    <li>Relatórios Personalizados</li>
+                </ol>
+                <a href="./img/StockSafe.pdf" class="buy-button">Saiba mais</a>
+            </div>
+        <video class="product-video"  id="meuVideo" controls>
+            <source src="./img/StockSafe.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+
+        <script>
+            var video = document.getElementById('meuVideo');
+            var playPauseBtn = document.getElementById('playPauseBtn');
+    
+            playPauseBtn.addEventListener('click', function () {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+    
+            video.addEventListener('ended', function () {
+                video.pause();
+            });
+        </script>
+        
+        
     </div>
-    <div class="recurso">
-        <h3>Recursos-Chave:</h3>
-        <ol>
-            <li>Rastreamento em Tempo Real</li>
-            <li>Alertas de Estoque Baixo</li>
-            <li>Gerenciamento de Prazos de Validade</li>
-            <li>Histórico de Movimentação de Estoque</li>
-            <li>Relatórios Personalizados</li>
-        </ol>
-        <a href="./img/StockSafe.pdf" class="buy-button">Saiba mais</a>
-    </div>
+   
 </body>
 
 

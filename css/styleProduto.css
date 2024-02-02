@@ -22,13 +22,19 @@ body {
 
 .product-image {
     width: 100%;
-    max-width: 400px;
-    margin: 20px auto;
+    max-width: 200px;
+   
+}
+
+.product-video {
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
 }
 
 .product-description {
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
     text-align: justify;
     color: white;
 }
@@ -54,7 +60,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 500px;
     margin: 20px auto;
     border: 2px solid #a621ca;
     background-color: #9520c0;
@@ -75,4 +81,5 @@ a {
 
 li {
     font-weight: 700;
+    font-size: 1.3em;
 }
