@@ -106,7 +106,7 @@ ul li a:hover {
 .conteiner-sobre p {
     color: #fff;
     font-size: 1rem;
-    
+
     margin: 2rem;
 
 }
@@ -131,8 +131,8 @@ hr {
     height: 2px;
     background-color: #fff;
     border: none;
-    width:100%;
-    
+    width: 100%;
+
 }
 
 #valores {
@@ -149,7 +149,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:2rem;
+    gap: 2rem;
     color: #fff;
     font-size: 1rem;
 
@@ -160,14 +160,14 @@ hr {
 .itens {
     flex: 1;
     max-width: 300px;
-   
+
     height: 270;
     border: 3px solid #9a40ca;
     margin-top: 5px;
     text-align: center;
     line-height: 0.3 em;
     transition: transform 0.2s;
-   
+
 
 }
 
@@ -179,7 +179,7 @@ hr {
 
 .itens p {
 
-    
+
     text-align: left;
     position: relative;
     font-size: 0.7rem;
@@ -222,15 +222,17 @@ hr {
 
 
 .aluno img {
-   
+
     max-height: 22rem;
     object-fit: scale-down;
 }
-.img-aluno{
-   
+
+.img-aluno {
+
     max-height: 30rem;
     object-fit: scale-down;
 }
+
 .aluno h1 {
     text-align: center;
     margin: 0.5rem;
@@ -244,19 +246,21 @@ hr {
     font-size: 1.2rem;
 
 }
+
 .aluno h3 {
 
     margin: 0.5rem;
     font-size: 0.8rem;
 
 }
+
 .aluno div {
     width: 35%;
 
 }
 
 .aluno a {
-    
+
     text-decoration: none;
     color: #fff;
     width: 10px;
@@ -269,8 +273,67 @@ hr {
 
 
 .link-footer {
-width: 35px;
-height: 35px;
-cursor: pointer;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
 
+}
+
+@media screen and (max-width: 1200px) {
+    .aluno {
+        flex-direction: column;
+        /* Altera para empilhar os elementos verticalmente */
+    }
+
+    .aluno img,
+    .aluno div {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .aluno div {
+        max-width: 100%;
+    }
+
+
+
+    .aluno div a {
+        display: inline-block;
+
+        margin: 0 5px;
+
+    }
+
+    .aluno a {
+
+        text-decoration: none;
+        color: #fff;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        margin-right: 0px;
+
+    }
+
+    .aluno {
+        flex-direction: column;
+        /* Altera para empilhar os elementos verticalmente */
+    }
+
+    .aluno img {
+        order: -1;
+        /* Move a imagem para o topo */
+        margin-bottom: 10px;
+        /* Adiciona um espaço entre a imagem e o texto */
+    }
+
+    .C-title img {
+        position: relative;
+        z-index: -1;
+        width: 60vw;
+        height: 45vh;
+        margin-top: auto;
+    }
 }
