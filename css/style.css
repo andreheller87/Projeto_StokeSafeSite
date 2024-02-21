@@ -324,9 +324,8 @@ hr {
 
     .aluno img {
         order: -1;
-        /* Move a imagem para o topo */
         margin-bottom: 10px;
-        /* Adiciona um espaço entre a imagem e o texto */
+
     }
 
     .C-title img {
