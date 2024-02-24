@@ -4,58 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./css/styleProduto.css">
     <title>Landing Page de Vendas</title>
-
+    <style>
+        
+        .header h1::before {
+            content: "\f86e";
+            font-family: "Font Awesome 5 Free";
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="header">
         <h1>Stock Safe</h1>
     </div>
+    <div class="product-description" ><p>
+        Sistema de Controle de Estoque para Pequenos Comércios.
+    </p> 
+    <p>
+        Com recursos incríveis e qualidade excepcional. 
+    </p></div>
     <div class="container">
-        
-
-        <p class="product-description">Sistema de Controle de Estoque para Pequenos Comércios. Com recursos incríveis e
-            qualidade excepcional. Ele vai mudar a vida dos pequenos comerciantes.</p>
-
+        <div class="content">
+            
             <div class="recurso">
                 <h3>Recursos-Chave:</h3>
-                <ol>
+                <ul>
                     <li>Rastreamento em Tempo Real</li>
                     <li>Alertas de Estoque Baixo</li>
                     <li>Gerenciamento de Prazos de Validade</li>
                     <li>Histórico de Movimentação de Estoque</li>
                     <li>Relatórios Personalizados</li>
-                </ol>
+                </ul>
                 <a href="./img/StockSafe.pdf" class="buy-button">Saiba mais</a>
             </div>
-        <video class="product-video"  id="meuVideo" controls>
-            <source src="./img/StockSafe.mp4" type="video/mp4">
-            Seu navegador não suporta o elemento de vídeo.
-        </video>
-
-        <script>
-            var video = document.getElementById('meuVideo');
-            var playPauseBtn = document.getElementById('playPauseBtn');
-    
-            playPauseBtn.addEventListener('click', function () {
-                if (video.paused) {
-                    video.play();
-                } else {
-                    video.pause();
-                }
-            });
-    
-            video.addEventListener('ended', function () {
-                video.pause();
-            });
-        </script>
-        
-        
+        </div>
+        <div class="video-container">
+            <video class="product-video" id="meuVideo" controls>
+                <source src="./img/StockSafe.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </div>
     </div>
-   
 </body>
-
 
 </html>

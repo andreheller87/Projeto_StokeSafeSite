@@ -1,45 +1,81 @@
+
+.header h1::before {
+    content: "\f86e";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #e6f0ff;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .header {
-    background-color: #9520c0;
-    color: white;
-    padding: 20px;
+    background-color: #80d0ff;
+    color: black;
+    padding: 10px;
     font-weight: 700;
-    font-size: large;
+    text-align: center;
+    width: 100%;
 }
 
-.product-image {
-    width: 100%;
-    max-width: 200px;
+.content {
+    flex: 0 0 40%;
+    margin-bottom: 20px;
+    
 }
 
-.product-video {
-    width: 100%;
-    max-width: 800px;
-    margin: 10px auto;
+.video-container {
+    flex: 0 0 55%;
+
+    
 }
 
 .product-description {
-    font-size: 30px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.recurso {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #333333;
+    font-size: 1.5em;
     margin-bottom: 10px;
-    text-align: justify;
-    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    font-size: 1.0em;
+    margin-bottom: 5px;
 }
 
 .buy-button {
-    background-color: black;
+    background-color: #80d0ff;
     color: white;
     padding: 10px 20px;
     font-size: 20px;
@@ -47,52 +83,27 @@ body {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    display: inline-block;
 }
 
 .buy-button:hover {
-    background-color: #500863;
-    color: white;
+    background-color: #4595a0;
 }
 
-.recurso {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    margin: 20px auto;
-    border: 2px solid #a621ca;
-    background-color: #9520c0;
-    overflow: hidden;
-    border-radius: 50px 10px 50px 10px;
+.product-video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-h3 {
-    text-align: center;
-    color: white;
-    font-size: 1.5em;
-}
-
-a {
-    margin-bottom: 2em;
-}
-
-li {
-    font-weight: 700;
-    font-size: 1.3em;
-}
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .container {
-        padding: 10px;
+        flex-direction: column;
     }
-    
-    .product-description {
-        font-size: 20px;
-    }
-    
-    .recurso {
-        width: 95%;
+
+    .content,
+    .video-container {
+        flex: 0 0 90%;
     }
 }
